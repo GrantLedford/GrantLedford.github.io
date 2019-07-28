@@ -45,7 +45,7 @@ function start(e) {
     return (Math.round(Math.random())-0.5);
   });
   var dieSides = 8;
-  var dieResult = Math.floor(Math.random() * Math.floor(dieSides) + 1);
+  var dieResult = Math.floor(Math.random() * Math.floor(dieSides) + 3);
   targetLangs = allLangs.slice(0, dieResult);
   targetLangs.push(startLanguage);
 
